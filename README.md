@@ -24,6 +24,15 @@ This project is a Spring Boot application that allows users to upload images and
     <artifactId>aws-java-sdk</artifactId>
     <version>1.11.133</version>
     </dependency>
+
+     <dependency>
+    <groupId>io.awspring.cloud</groupId>
+    <artifactId>spring-cloud-aws-starter
+    </artifactId>
+    <version>3.1.1</version>
+    </dependency>
+   ```
+
 3. **Configure AWS Credentials** Create an application.properties file in the src/main/resources directory with the following content:
    ```propertie
    aws.accessKeyId= YOUR_ACCESS_KEY
