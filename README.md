@@ -1,4 +1,4 @@
-# AWS Spring Boot File Upload
+# ***spring-aws***
 
 ## Description
 This project is a Spring Boot application that allows users to upload images and files to an Amazon S3 bucket. It provides RESTful API endpoints for uploading and deleting files, making it easy to manage file storage in the cloud.
