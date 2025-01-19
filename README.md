@@ -42,7 +42,7 @@ This project is a Spring Boot application that allows users to upload images and
 API Endpoints
 Upload File
 
-Endpoint: POST /storage/uploadFile
+Endpoint: ```localhost:8081/api/s3/upload```
 Request: Form-data with key file (type: File)
 Response: Returns the URL of the uploaded file.
    
