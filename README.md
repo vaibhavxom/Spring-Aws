@@ -14,22 +14,23 @@ This project is a Spring Boot application that allows users to upload images and
 
 1. **Clone the Repository**
    ```bash
-   git clone https://github.com/yourusername/aws-spring-file-upload.git
-   cd aws-spring-file-upload
+   git clone https://github.com/yourusername/spring-aws.git
+   cd spring-aws
+  ```
 2. **Add AWS SDK Dependency**
     Add the following dependency to your pom.xml file:
    ```xml
    <dependency>
     <groupId>com.amazonaws</groupId>
     <artifactId>aws-java-sdk</artifactId>
-    <version>1.11.133</version>
+    <version>1.11.133</version><!--use latest verison -->
     </dependency>
 
      <dependency>
     <groupId>io.awspring.cloud</groupId>
     <artifactId>spring-cloud-aws-starter
     </artifactId>
-    <version>3.1.1</version>
+    <version>3.1.1</version><!--use latest verison -->
     </dependency>
    ```
 
