@@ -23,12 +23,12 @@ public class S3config {
 	@Value("${aws.region}")
 	private String region;
 
-	/**
-	 * Creates a reusable S3Client object, so other parts of the application can use
-	 * it for AWS S3 operations like uploading or downloading files
-	 */
-	@Bean
-	public S3Client s3Client()
+    /**
+     * Creates a reusable S3Client object, so other parts of the application can use
+     * it for AWS S3 operations like uploading or downloading files
+     */
+    @Bean
+    S3Client s3Client()
 	{
 		AwsBasicCredentials awsCreds = AwsBasicCredentials.create(accessKeyId, secretKey);
 		return S3Client.builder().region(Region.of(region))
